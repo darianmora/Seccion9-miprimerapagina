@@ -229,7 +229,11 @@ list-style-type:decimal
 
 }
 
-
+.greeting {
+  font-style: oblique;
+    text-align: center; /*Text decoration y text shadow (sombra 0px 0px 0px)*/
+    color: rgb(51, 138, 66);
+}
 
 
 
