@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Primer Website</title>   
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+  </head>
+  <body>
+    <div class="container">
+        <header>
+            <div class="container-nav">
+              <nav class="navbar" role="navigation">
+                <a href="yop.jpg" class="brand">Darian Mora</a>
+                <ul class="nav-links">
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="Cosas-sobre-Mí.html">Sobre Mí</a></li>
+                  <li><a href="Contáctame.html">Contáctame</a></li>  <!--Target:"_blank" se utiliza para que salte a otra pagina-->
+                </ul>
+              </nav>
+              <button class="button-menu-toggle">Menú</button>
+            </div>
+            </header>
+        <main>
+        <h1>¡Contáctame!</h1>
+        <p>¡Escríbeme! Súper encantada de poder conocerte...</p>
+        <form id="myForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="ej. Darian..">
+      
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="ej. Mora..">
+
+            <label for="país">País:</label>
+            <select id="país" name="país">
+              <option value="argentina">Argentina</option>
+              <option value="colombia">Colombia</option>
+              <option value="venezuela">Venezuela</option>
+              </select>
+      
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="ej. soylamejor@gmail.com"> <!--type= password,file,radio,checkbox-->
+
+            <br> <!--Espacio hacia abajo -->
+            <label for="comentario">Comentario:</label>
+            <textarea cols="80px" rows="10px" id="comentario" name="comentario" placeholder="Ingrese Comentario..."></textarea> 
+    
+            <button type="submit">Enviar</button>
+          </form>
+
+    </div>
+</main>
+    <footer>
+        <p>Copyright © 2023 - Todos los derechos Reservados.</p>
+        <button onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+        </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

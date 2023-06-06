@@ -1,0 +1,236 @@
+Body {
+    background-color:rgb(252, 247, 255);
+    /* si utilizas rgba es la opacidad del color en si
+    si utilizas opacity es todo tanto letra como color
+    backgroud imagen:url("nombre de la imagen")
+    height: da Numeropx 
+    background size: proporciona una imagen proporcional al numero de height
+    
+    
+    o simplemente colocar background y por espacios ir relleando (color url size /height)
+    */
+    color: black;
+}
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align:center;
+    color:rgb(66, 90, 84) 
+   /* border: tamaño color style ( tambien borde style) 
+   border radius:es cuando se quiere colocar de forma circular
+   border width:grosor*/
+}
+h2{
+    font-style: oblique;
+    text-align: center; /*Text decoration y text shadow (sombra 0px 0px 0px)*/
+    color: rgb(51, 138, 66);
+    font-weight: 900;
+}
+    
+p {
+    font-family: 'Times New Roman', Times, serif; /*Si deseas otra letra ve a google font, elige la fuente 
+    y copias el link y lo pegaras dentro de la etiqueta de head*/
+    font-size:20px;
+    padding:10px;
+    margin: auto; /*los margenes y el padding van como las agujas del reloj (arriba, derecha, abajo, izquierda)
+    overflow: este permite con hidden es cuando todo contenido no alcanze
+     a mostrarse dentro de las dimensiones del "margen" lo oculte, mientras que scroll
+      hace que lo puedas mover YUPII JAJAJAJ*/
+    text-align: justify;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+
+
+  }
+  .imagen-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.video{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.img {
+  text-align: center;
+}
+
+
+
+
+  .container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color:rgb(125, 173, 160); 
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  nav a {     /*Deberías ver que los enlaces ahora son de color blanco y
+    que al pasar el cursor por encima cambian al color celeste.*/
+color: white;
+text-decoration: none;
+padding: 5px;
+}
+nav a:hover {
+color: black;
+}
+
+
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+
+  li>a {
+    padding: 8px 24px;
+  }
+  
+  
+  li {
+    list-style-type: none;
+  }
+  
+  
+  a {
+    color: white;
+    text-decoration:none;
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .button-menu-toggle {
+    display: none;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+  
+    .nav-links {
+      display: none;
+    }
+  
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: rgb(230, 240, 237);
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family:Times New Roman;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+    }
+  }
+  form{
+    background-color: rgb(241, 238, 219);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+  }
+  form label{
+    font-weight: 700;
+    padding: 5px;
+  }
+  form input{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    width:210px;
+    margin: 5px 0px 5px 0px;
+    
+  }
+  
+  
+  .video{
+    padding: 30px;
+    gap: 5px;
+  }
+  iframe {
+    max-width: 90%;
+  }
+  footer {
+    position: relative;
+    bottom: 0px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(125, 173, 160);
+    min-height: 50px;
+    text-align: center;
+    font-size:10px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+
+  }
+  main {
+    min-height:75vh;
+  }
+
+ol li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 5px;
+text-align: justify;
+list-style-type:decimal
+
+}
+
+
+
+
+
+  
