@@ -1,15 +1,8 @@
-/*document.querySelector("button.button-menu-toggle")
+document.querySelector("button.button-menu-toggle")
   .addEventListener("click", function() {
 document.querySelector(".nav-links").
-classList.toggle("nav-links-responsive")})*/
+classList.toggle("nav-links-responsive")})
                       
-/*function showAlert() {
-  alert("¡Hola, esta es una alerta desde JavaScript!");
-}
-let miBoton = document.getElementById('miBoton');*/
-
-
-
 
 function showAlert() { alert('¡Hola, esta es una alerta desde JavaScript!')}
 let miBoton = document.getElementById('miBoton');
@@ -17,12 +10,6 @@ function handleClick(){
     alert('¡Hola! Has hecho click en el botón')
 }
 miBoton.addEventListener('click', handleClick);
-
-
-
-
-
-
 
 
 const form = document.getElementById('myForm');
